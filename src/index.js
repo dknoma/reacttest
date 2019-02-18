@@ -22,7 +22,7 @@ class Board extends React.Component {
 
     render() {
         const status = 'Next player: X';
-
+        // will render a square for each row
         return (
         <div>
             <div className="status">{status}</div>
